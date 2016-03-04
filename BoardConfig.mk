@@ -103,16 +103,16 @@ TARGET_ENABLE_NON_PIE_SUPPORT := true
 
 
 # Parameters
-OPTFLAGS_ARM := -march=armv7-a -mtune=cortex-a9 -Ofast -flto
+#OPTFLAGS_ARM := -march=armv7-a -mtune=cortex-a9 -Ofast -flto
 WITH_DEXPREOPT := true
 OVERRIDE_RUNTIMES := runtime_libdvm_default runtime_libart
 
 # GCC 5.3.0 & Java 1.8
-TARGET_TOOLS_PREFIX := /usr/bin/arm-linux-androideabi-
-KERNEL_TOOLS_PREFIX := /usr/bin/arm-eabi-
-ARM_EABI_PREFIX := /usr/bin/arm-eabi-
-JAVA_HOME := /usr/java/jdk1.8.0_72
-TARGET_GCC_EXP := 5.3
+#TARGET_TOOLS_PREFIX := /usr/bin/arm-linux-androideabi-
+#KERNEL_TOOLS_PREFIX := /usr/bin/arm-eabi-
+#ARM_EABI_PREFIX := /usr/bin/arm-eabi-
+#JAVA_HOME := /usr/java/jdk1.8.0_72
+#TARGET_GCC_EXP := 5.3
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
